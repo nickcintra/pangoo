@@ -1,0 +1,1185 @@
+@import url("https://use.typekit.net/fef5yze.css");
+
+#txtBusca {
+  background-color: transparent;
+  padding-left: 5px;
+  font-size: 18px;
+  border: none;
+  height: 100%;
+  width: 90%;
+}
+
+#btnBusca {
+  float: left;
+  cursor: pointer;
+}
+
+#divBusca img {
+  width: 10%;
+  height: auto;
+}
+
+#divBusca {
+  border: solid 1px rgba(47, 79, 79, 0.8);
+  border-radius: 40px;
+  height: 119px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.login {
+  background-color: white;
+  border-radius: 16px;
+}
+
+.login a:hover {
+  color: #F87D2E !important;
+}
+
+.botaoVolta {
+  height: 60px;
+  width: 60px !important;
+  border: 1px black;
+  border-style: solid;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li a:hover {
+  color: #F87D2E !important;
+}
+
+.selectUm {
+  text-align: center;
+  font-family: Filson-soft, sans-serif;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 25px !important;
+  height: 60px;
+  border-radius: 10px !important;
+  border: none !important;
+  background-color: rgba(255, 255, 255, .8) !important;
+  padding: 0 !important;
+  max-width: 18em;
+  width: 100% !important;
+}
+
+#menu {
+  font-family: Filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.menu {
+  font-family: Filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.logo {
+  top: 56px;
+  left: 82px;
+  width: 207px;
+  height: 54px;
+  opacity: 1;
+}
+
+/* BACKGROUND PRIMEIRO E UNICO BANNER DA PAGINA SOBRE NOS */
+#topo {
+  background-image: url("../photos/sobrenos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1080px;
+}
+
+/* BACKGROUND PRIMEIRO E UNICO BANNER DA PAGINA LOJA */
+#topoLoja {
+  background-image: url("../photos/loja.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1080px;
+}
+
+/* ------------ VIDEO PRIMEIRA PAGINA ---------- */
+#videoBG {
+  width: 100%;
+  height: auto;
+  padding: 0 !important;
+}
+
+/* ------- SELECT PRIMEIRA PAGINA ----------- */
+.envolveSelect {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  z-index: 1;
+  padding-right: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+
+/* TIRANDO DECORAÇÃO DE TEXTO E COLOCANDO COR BRANCA */
+.semDecoration {
+  text-decoration: none !important;
+  color: rgb(255, 255, 255);
+}
+
+/*------------- BORDA DA PRIMEIRA PAGINA DOS ULTIMOS BALÕES DE INFORMAÇÃO ------------*/
+.borda-especial {
+  border: 4px solid #376001;
+  border-bottom-left-radius: 39px !important;
+  border-top-left-radius: 39px !important;
+  border-right: none;
+  height: 98px;
+}
+
+/*---------- ALTERAÇÃO NAV (MENU) ------------*/
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0 !important;
+  align-items: center;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white !important;
+  text-decoration: none;
+}
+
+
+/* ALINHAMENTO HORIZONTAL */
+.align-horizontal {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 8% !important;
+  align-items: center;
+}
+
+/* ------------------ FONTS ------------------- */
+.fontFilton2 {
+  font-family: Filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fontFiltonTitulo {
+  font-family: Filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.4rem;
+  letter-spacing: 0px;
+  color: #100701;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+.fontFiltonRodapeTitle {
+  font-family: Filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.fontFiltonRodapeConteudo {
+  font-family: Filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF !important;
+  opacity: 1;
+}
+
+.titulo7 {
+  font-family: Filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.0rem;
+  text-align: left;
+}
+
+.conteudo7 {
+  font-family: Filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8rem;
+  text-align: left;
+  line-height: 45px;
+}
+
+.conteudo8 {
+  font-family: Filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.1rem;
+  text-align: left;
+  line-height: 45px;
+}
+
+.font-icones-meio {
+  font-family: Filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: white !important;
+}
+
+/* ------------------------ CARDS ----------------------- */
+.card {
+  background-color: transparent !important;
+  background-clip: border-box !important;
+}
+
+.carta img {
+  width: fit-content !important;
+  height: 80.56px !important;
+}
+
+/* ------------------------ BACKGROUND ----------------------- */
+
+#balaoBackground {
+  background: url("../photos/papagaio.png");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+/* Medium devices (tablets, 320px and up) */
+@media (min-width: 320px) {
+
+  #balaoBackground {
+    background: url("../photos/papagaio.png");
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    padding-block: 2rem;
+  }
+
+  #fotoPapagaio {
+    display: none;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 0 !important;
+  }
+
+  .carta img {
+    width: fit-content !important;
+    height: 25.56px !important;
+  }
+
+  #faixaOpcoesMeio {
+    background-color: #67B206 !important;
+    padding-block: 3rem;
+  }
+
+  .font-icones-meio {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: white !important;
+  }
+
+  .backgroundFuturo {
+    background-color: #4C9EFF;
+    color: white !important;
+    padding-block: 3rem !important;
+    text-align: center;
+  }
+
+  #topo {
+    background-image: url(../photos/sobrenos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 384px;
+  }
+
+  #topoLoja {
+    background-image: url(../photos/loja.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 275px;
+  }
+
+  .conteudo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    line-height: 33px;
+    padding-block: 40px;
+  }
+
+  .titulo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    text-align: left;
+    line-height: 32px;
+  }
+
+  .conteudo9 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+  }
+
+  .conteudo8 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 25px;
+  }
+
+  .fontFiltonTitulo {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-right: auto !important;
+    margin-bottom: 292px;
+  }
+
+  .fontFilton2 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .logopangoo {
+    width: 100.75px;
+  }
+
+  .borda-especial {
+    border: 4px solid #376001;
+    border-bottom-left-radius: 39px !important;
+    border-top-left-radius: 39px !important;
+    border-right: none;
+    height: 41px;
+    background-color: white;
+  }
+
+  .selectUm {
+    text-align: center;
+    font-family: Filson-soft, sans-serif;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    height: 39px;
+    border-radius: 10px !important;
+    border: none !important;
+    background-color: rgba(255, 255, 255, .8) !important;
+    padding: 0 !important;
+    max-width: 14em;
+    width: 100% !important;
+  }
+}
+
+/* Medium devices (tablets, 375px and up) */
+@media (min-width: 375px) {
+
+
+  .backgroundFuturo {
+    background-color: #4C9EFF;
+    color: white !important;
+    padding: 2.3rem !important;
+    text-align: center !important;
+  }
+
+  #topo {
+    background-image: url("../photos/sobrenos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 249px;
+  }
+
+  #topoLoja {
+    background-image: url("../photos/loja.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 211px;
+  }
+
+  .backgroundPapagaio {
+    background-image: url(./photos/papagaio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .titulo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    line-height: 23px;
+    padding-bottom: 3rem !important;
+  }
+
+  .conteudo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    line-height: 17px;
+    padding-block: 0;
+  }
+
+  .conteudo8 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    line-height: 26px;
+  }
+
+  .conteudo9 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: left;
+    line-height: 26px;
+  }
+
+  .logopangoo {
+    width: 100.75px;
+    ;
+  }
+}
+
+@media (min-width: 425px) {
+
+  .borda-especial {
+    border: 4px solid #376001;
+    border-bottom-left-radius: 39px !important;
+    border-top-left-radius: 39px !important;
+    border-right: none;
+    height: 37px;
+    background-color: white;
+  }
+
+  #balaoBackground {
+    background: url(../photos/papagaio.png);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    padding-block: 74px;
+    padding-inline: 13px;
+  }
+
+  .fontFiltonTitulo {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-right: auto !important;
+    margin-left: 15px;
+    margin-bottom: 440px;
+  }
+
+  .fontFilton2 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .backgroundFuturo {
+    background-color: #4C9EFF;
+    color: white !important;
+    padding: 2.3rem !important;
+    text-align: center !important;
+  }
+
+  #topo {
+    background-image: url("../photos/sobrenos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 249px;
+  }
+
+  #topoLoja {
+    background-image: url(../photos/loja.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 239px;
+  }
+
+  .backgroundPapagaio {
+    background-image: url(./photos/papagaio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .titulo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    line-height: 23px;
+    padding-bottom: 3rem !important;
+  }
+
+  .conteudo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    line-height: 17px;
+    padding-block: 0;
+  }
+
+  .conteudo8 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    line-height: 26px;
+  }
+
+  .conteudo9 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    line-height: 26px;
+  }
+
+  .logopangoo {
+    width: 100.75px;
+    ;
+  }
+
+  .card {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .card-body {
+    flex: 1 1 auto !important;
+    padding: 1rem 0 !important;
+  }
+
+  .carta img {
+    width: fit-content !important;
+    height: 50.56px !important;
+  }
+
+  .font-icones-meio {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: white !important;
+  }
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) {
+
+
+
+  .backgroundFuturo {
+    background-color: white;
+    color: #100701 !important;
+  }
+
+  #topo {
+    background-image: url("../photos/sobrenos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 399px;
+  }
+
+  #topoLoja {
+    background-image: url("../photos/loja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .backgroundPapagaio {
+    background-image: url(./photos/papagaio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .titulo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.0rem;
+    text-align: left;
+
+  }
+
+  .logopangoo {
+    width: 100.75px;
+    ;
+  }
+
+  .gap-espaco {
+    gap: 3rem !important
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .selectUm {
+    text-align: center;
+    font-family: Filson-soft, sans-serif;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    height: 49px;
+    border-radius: 10px !important;
+    border: none !important;
+    background-color: rgba(255, 255, 255, .8) !important;
+    padding: 0 !important;
+    max-width: 18em;
+    width: 100% !important;
+  }
+
+
+  .fontFiltonTitulo {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 34px;
+    margin-right: auto !important;
+    margin-left: 41px;
+    margin-bottom: 440px;
+  }
+
+  #balaoBackground {
+    background: url(../photos/papagaio.png);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    padding-block: 74px;
+    padding-inline: 13px;
+  }
+
+  .carta img {
+    width: fit-content !important;
+    height: 47.56px !important;
+  }
+
+  .font-icones-meio {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: white !important;
+  }
+
+  .backgroundFuturo {
+    background-color: white;
+    color: #100701 !important;
+    padding-top: 0 !important;
+  }
+
+  #topo {
+    background-image: url("../photos/sobrenos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 527px;
+  }
+
+  #topoLoja {
+    background-image: url("../photos/loja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 527px;
+  }
+
+  .backgroundPapagaio {
+    background-image: url(./photos/papagaio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #faixaOpcoesMeio {
+    background-color: #09149D !important;
+  }
+
+  .titulo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    text-align: left;
+    line-height: 38px;
+  }
+
+  .conteudo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    line-height: 25px;
+  }
+
+  .conteudo8 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+    line-height: 34px;
+  }
+
+  .conteudo9 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+    line-height: 34px;
+  }
+
+  .logopangoo {
+    width: 150px;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .selectUm {
+    text-align: center;
+    font-family: Filson-soft, sans-serif;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    height: 60px;
+    border-radius: 10px !important;
+    border: none !important;
+    background-color: rgba(255, 255, 255, .8) !important;
+    padding: 0 !important;
+    max-width: 18em;
+    width: 100% !important;
+  }
+
+  /*------------- BORDA DA PRIMEIRA PAGINA DOS ULTIMOS BALÕES DE INFORMAÇÃO ------------*/
+  .borda-especial {
+    border: 4px solid #376001;
+    border-bottom-left-radius: 39px !important;
+    border-top-left-radius: 39px !important;
+    border-right: none;
+    height: 85px;
+  }
+
+  .fontFiltonTitulo {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.4rem;
+    letter-spacing: 0px;
+    color: #100701;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 0 !important;
+  }
+
+
+  #balaoBackground {
+    background: none !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    padding-block: 0 !important;
+    padding-inline: 0 !important;
+  }
+
+  #fotoPapagaio {
+    display: block;
+  }
+
+  #topo {
+    background-image: url("../photos/sobrenos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 676px;
+  }
+
+  #topoLoja {
+    background-image: url("../photos/loja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 676px;
+  }
+
+  .backgroundPapagaio {
+    background-image: url(./photos/papagaio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .fontFilton2 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .fontFiltonTitulo {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+    letter-spacing: 0px;
+    color: #100701;
+    text-transform: uppercase;
+    line-height: 33px;
+    margin-right: 0 !important;
+  }
+
+  #topo {
+    background-image: url("../photos/sobrenos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 697px;
+
+  }
+
+  #topoLoja {
+    background-image: url("../photos/loja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 697px;
+  }
+
+  .g-column-gap {
+    grid-column-gap: 0;
+  }
+
+  .tamanhoImagem {
+    width: 202px;
+  }
+
+  .titulo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.6rem;
+    text-align: left;
+  }
+
+  .conteudo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: left;
+    line-height: 45px;
+  }
+
+  .conteudo8 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3rem;
+    text-align: left;
+    line-height: 45px;
+  }
+
+  .conteudo9 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3rem;
+    text-align: left;
+    line-height: 45px;
+  }
+
+  .carta img {
+    width: fit-content !important;
+    height: 54.56px !important;
+  }
+
+  .font-icones-meio {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: white !important;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #topo {
+    background-image: url("../photos/sobrenos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 814px;
+  }
+
+  #topoLoja {
+    background-image: url("../photos/loja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 814px;
+  }
+
+  .g-column-gap {
+    grid-column-gap: 3.4rem;
+    ;
+  }
+
+  .titulo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.8rem;
+    text-align: left;
+  }
+
+  .logopangoo {
+    width: 202px;
+  }
+
+  .fontFilton2 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .fontFiltonTitulo {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    color: #100701;
+    text-transform: uppercase;
+    line-height: 46px;
+  }
+}
+
+/* X-Large devices (large desktops, 1439px and up) */
+@media (min-width: 1440px) {
+  #topo {
+    background-image: url("../photos/sobrenos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 974px;
+  }
+
+  #topoLoja {
+    background-image: url("../photos/loja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 814px;
+  }
+
+  .backgroundPapagaio {
+    background-image: url(./photos/papagaio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .titulo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: left;
+    line-height: 59px;
+  }
+
+  .conteudo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: left;
+    line-height: 45px;
+  }
+
+  .conteudo8 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: left;
+    line-height: 61px;
+  }
+
+  .conteudo9 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: left;
+    line-height: 61px;
+  }
+
+  .font-icones-meio {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    color: white !important;
+  }
+
+  .fontFiltonTitulo {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    color: #100701;
+    text-transform: uppercase;
+    line-height: 46px;
+    padding-bottom: 30px;
+  }
+
+  .fontFilton2 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-size: 28px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1919px) {
+  #topo {
+    background-image: url("../photos/sobrenos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 974px;
+  }
+
+  #topoLoja {
+    background-image: url("../photos/loja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1440px;
+  }
+
+  .backgroundPapagaio {
+    background-image: url(./photos/papagaio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .titulo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.0rem;
+    text-align: left;
+  }
+
+  .conteudo7 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.8rem;
+    text-align: left;
+    line-height: 48px;
+  }
+
+  .fontFilton2 {
+    font-family: Filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-size: 32px;
+    text-align: center;
+  }
+}
