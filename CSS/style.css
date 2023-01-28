@@ -434,9 +434,8 @@ ul li a:hover {
   #topoLoja {
     background-image: url("../photos/loja.png");
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
-    height: 211px;
+    height: 27vh;
   }
 
   .backgroundPapagaio {
