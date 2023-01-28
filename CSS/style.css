@@ -413,7 +413,7 @@ ul li a:hover {
 }
 
 /* Medium devices (tablets, 375px and up) */
-@media (min-width: 375px) {
+@media screen and (min-width: 375px) {
 
 
   .backgroundFuturo {
